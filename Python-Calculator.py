@@ -1,34 +1,35 @@
 print("..:::PYTHON-CALCULATOR:::..")
 print("Hello! :)")
 print("Now tell me what can i do for you?")
-print(" 1.(+) - Dodawanie")
-print(" 2.(-) - Odejmowanie")
-print(" 3.(*) - Mnożenie")
-print(" 4.(/) - Dzielenie")
-wybor = input("Enter działanie (1/2/3/4): ")
+print(" 1.(+) - Addition")
+print(" 2.(-) - Subtraction")
+print(" 3.(*) - Multiplication")
+print(" 4.(/) - Division")
+wybor = input("Choose an action (1/2/3/4): ")
 print(" ")
-print("BRAWO! Wybrałeś opcję: " + wybor)
-print("Teraz podaj liczby!!! :D  ")
-num1= int(input("Pierwsza liczba: "))
+print("GOOD JOB! You pick action: " + wybor)
 print(" ")
-num2= int(input("Druga libcza: "))
+print("Now please enter your numbers:  ")
+num1= int(input("First number: "))
+print(" ")
+num2= int(input("Second number: "))
 print(" ")
 print(" ")
 if wybor == '1':
-    sum = num1 + num2
-    print("Wynik to: ",sum)
+    add = num1 + num2
+    print("The result is: ",add)
 elif wybor == '2':
-    roz = num1 - num2
-    print("Wynik to: ",roz)
+    sub = num1 - num2
+    print("The result is: ",sub)
 elif wybor == '3':
-    mno = num1 * num2
-    print("Wynik to: ",mno)
+    mul = num1 * num2
+    print("The result is: ",mul)
 elif wybor == '4':
-    dzi = num1 / num2
-    print("Wynik to: ",dzi)
-elif wybor < '4':
-    print("Złe polecenie! Przykro mi :( ")
+    div = num1 / num2
+    print("The result is: ",div)
+else:
+    print("Bad action! Sorry :( ")
 print(" ")
 print(" ")
-print(" Dziękuję za zabawę! :) <3")
+print(" Thank you! See you soon :)")
 
