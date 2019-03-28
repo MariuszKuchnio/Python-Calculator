@@ -6,30 +6,23 @@ print(" 2.(-) - Subtraction")
 print(" 3.(*) - Multiplication")
 print(" 4.(/) - Division")
 wybor = input("Choose an action (1/2/3/4): ")
-print(" ")
-print("GOOD JOB! You pick action: " + wybor)
-print(" ")
-print("Now please enter your numbers:  ")
+print("\nGOOD JOB! You pick action: " + wybor)
+print("\nNow please enter your numbers:  ")
 num1= int(input("First number: "))
-print(" ")
-num2= int(input("Second number: "))
-print(" ")
-print(" ")
+num2= int(input("\nSecond number: "))
 if wybor == '1':
     add = num1 + num2
-    print("The result is: ",add)
+    print("\n\nThe result is: ",add)
 elif wybor == '2':
     sub = num1 - num2
-    print("The result is: ",sub)
+    print("\n\nThe result is: ",sub)
 elif wybor == '3':
     mul = num1 * num2
-    print("The result is: ",mul)
+    print("\n\nThe result is: ",mul)
 elif wybor == '4':
     div = num1 / num2
-    print("The result is: ",div)
+    print("\n\nThe result is: ",div)
 else:
-    print("Bad action! Sorry :( ")
-print(" ")
-print(" ")
-print(" Thank you! See you soon :)")
+    print("\n\nBad action! Sorry :( ")
+print("\n\n Thank you! See you soon :)")
 
